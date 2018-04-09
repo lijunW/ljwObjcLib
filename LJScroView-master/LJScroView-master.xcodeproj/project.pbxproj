@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3C70EE2059003B00626BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C70ED2059003B00626BA3 /* AppDelegate.m */; };
+		6E3C70F12059003B00626BA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C70F02059003B00626BA3 /* ViewController.m */; };
+		6E3C70F42059003B00626BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3C70F22059003B00626BA3 /* Main.storyboard */; };
+		6E3C70F62059003B00626BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3C70F52059003B00626BA3 /* Assets.xcassets */; };
+		6E3C70F92059003B00626BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3C70F72059003B00626BA3 /* LaunchScreen.storyboard */; };
+		6E3C70FC2059003B00626BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C70FB2059003B00626BA3 /* main.m */; };
+		6E3C71062059003C00626BA3 /* LJScroView_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C71052059003C00626BA3 /* LJScroView_masterTests.m */; };
+		6E3C71112059003C00626BA3 /* LJScroView_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C71102059003C00626BA3 /* LJScroView_masterUITests.m */; };
+		6E3C71292059015D00626BA3 /* LJScroViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C711F2059015D00626BA3 /* LJScroViewItem.m */; };
+		6E3C712A2059015D00626BA3 /* LJScroViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C71202059015D00626BA3 /* LJScroViewCell.m */; };
+		6E3C712B2059015D00626BA3 /* LJScroViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C71212059015D00626BA3 /* LJScroViewConfig.m */; };
+		6E3C712C2059015D00626BA3 /* LJScroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C71222059015D00626BA3 /* LJScroView.m */; };
+		6E3C712D2059015D00626BA3 /* LJScroViewCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C71282059015D00626BA3 /* LJScroViewCollectionViewLayout.m */; };
+		6E3C71302059066B00626BA3 /* 1254x1647fn3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E3C712F2059066A00626BA3 /* 1254x1647fn3.jpeg */; };
+		6E3C71332059292E00626BA3 /* LJMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C71322059292E00626BA3 /* LJMainScrollView.m */; };
+		B531ECF583148D38BB49F61A /* libPods-LJScroView-masterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 378CD10AEE7C8126AC7F0C1D /* libPods-LJScroView-masterTests.a */; };
+		CDC3E2FFEE10CA80C54EA291 /* libPods-LJScroView-masterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4BD4F672B8E4A2EE7DE147 /* libPods-LJScroView-masterUITests.a */; };
+		FEAD3C2F60036ED08466AA1B /* libPods-LJScroView-master.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A76B645C3A34D485DC3B87A4 /* libPods-LJScroView-master.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3C71022059003C00626BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3C70E12059003B00626BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3C70E82059003B00626BA3;
+			remoteInfo = "LJScroView-master";
+		};
+		6E3C710D2059003C00626BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3C70E12059003B00626BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3C70E82059003B00626BA3;
+			remoteInfo = "LJScroView-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AC9A784AA94499C7808BC9 /* Pods-LJScroView-masterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJScroView-masterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJScroView-masterTests/Pods-LJScroView-masterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		378CD10AEE7C8126AC7F0C1D /* libPods-LJScroView-masterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJScroView-masterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C1915CDA1B89153C253768 /* Pods-LJScroView-masterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJScroView-masterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJScroView-masterUITests/Pods-LJScroView-masterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		684BAC3AD89A9608095B0DEA /* Pods-LJScroView-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJScroView-master.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJScroView-master/Pods-LJScroView-master.debug.xcconfig"; sourceTree = "<group>"; };
+		6E3C70E92059003B00626BA3 /* LJScroView-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LJScroView-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3C70EC2059003B00626BA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E3C70ED2059003B00626BA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E3C70EF2059003B00626BA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E3C70F02059003B00626BA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E3C70F32059003B00626BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3C70F52059003B00626BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3C70F82059003B00626BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3C70FA2059003B00626BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3C70FB2059003B00626BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E3C71012059003C00626BA3 /* LJScroView-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LJScroView-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3C71052059003C00626BA3 /* LJScroView_masterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJScroView_masterTests.m; sourceTree = "<group>"; };
+		6E3C71072059003C00626BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3C710C2059003C00626BA3 /* LJScroView-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LJScroView-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3C71102059003C00626BA3 /* LJScroView_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJScroView_masterUITests.m; sourceTree = "<group>"; };
+		6E3C71122059003C00626BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3C711F2059015D00626BA3 /* LJScroViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJScroViewItem.m; sourceTree = "<group>"; };
+		6E3C71202059015D00626BA3 /* LJScroViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJScroViewCell.m; sourceTree = "<group>"; };
+		6E3C71212059015D00626BA3 /* LJScroViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJScroViewConfig.m; sourceTree = "<group>"; };
+		6E3C71222059015D00626BA3 /* LJScroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJScroView.m; sourceTree = "<group>"; };
+		6E3C71232059015D00626BA3 /* LJScroViewCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJScroViewCollectionViewLayout.h; sourceTree = "<group>"; };
+		6E3C71242059015D00626BA3 /* LJScroViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJScroViewCell.h; sourceTree = "<group>"; };
+		6E3C71252059015D00626BA3 /* LJScroViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJScroViewItem.h; sourceTree = "<group>"; };
+		6E3C71262059015D00626BA3 /* LJScroViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJScroViewConfig.h; sourceTree = "<group>"; };
+		6E3C71272059015D00626BA3 /* LJScroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJScroView.h; sourceTree = "<group>"; };
+		6E3C71282059015D00626BA3 /* LJScroViewCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJScroViewCollectionViewLayout.m; sourceTree = "<group>"; };
+		6E3C712E205902D900626BA3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6E3C712F2059066A00626BA3 /* 1254x1647fn3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1254x1647fn3.jpeg; sourceTree = "<group>"; };
+		6E3C71312059292E00626BA3 /* LJMainScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJMainScrollView.h; sourceTree = "<group>"; };
+		6E3C71322059292E00626BA3 /* LJMainScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJMainScrollView.m; sourceTree = "<group>"; };
+		728590BA570834C0668F3BD2 /* Pods-LJScroView-masterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJScroView-masterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJScroView-masterUITests/Pods-LJScroView-masterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1D7BC1A70B8080153C018C2 /* Pods-LJScroView-masterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJScroView-masterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJScroView-masterTests/Pods-LJScroView-masterTests.release.xcconfig"; sourceTree = "<group>"; };
+		A76B645C3A34D485DC3B87A4 /* libPods-LJScroView-master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJScroView-master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F907D6E412AB62D1CA8263 /* Pods-LJScroView-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJScroView-master.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJScroView-master/Pods-LJScroView-master.release.xcconfig"; sourceTree = "<group>"; };
+		FA4BD4F672B8E4A2EE7DE147 /* libPods-LJScroView-masterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJScroView-masterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3C70E62059003B00626BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAD3C2F60036ED08466AA1B /* libPods-LJScroView-master.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3C70FE2059003C00626BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B531ECF583148D38BB49F61A /* libPods-LJScroView-masterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3C71092059003C00626BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC3E2FFEE10CA80C54EA291 /* libPods-LJScroView-masterUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA2FD4B42CA7FDE6F0E5DC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				684BAC3AD89A9608095B0DEA /* Pods-LJScroView-master.debug.xcconfig */,
+				E2F907D6E412AB62D1CA8263 /* Pods-LJScroView-master.release.xcconfig */,
+				00AC9A784AA94499C7808BC9 /* Pods-LJScroView-masterTests.debug.xcconfig */,
+				A1D7BC1A70B8080153C018C2 /* Pods-LJScroView-masterTests.release.xcconfig */,
+				728590BA570834C0668F3BD2 /* Pods-LJScroView-masterUITests.debug.xcconfig */,
+				64C1915CDA1B89153C253768 /* Pods-LJScroView-masterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E3C70E02059003B00626BA3 = {
+			isa = PBXGroup;
+			children = (
+				6E3C712F2059066A00626BA3 /* 1254x1647fn3.jpeg */,
+				6E3C711E2059015D00626BA3 /* LJScroview */,
+				6E3C70EB2059003B00626BA3 /* LJScroView-master */,
+				6E3C71042059003C00626BA3 /* LJScroView-masterTests */,
+				6E3C710F2059003C00626BA3 /* LJScroView-masterUITests */,
+				6E3C70EA2059003B00626BA3 /* Products */,
+				2FA2FD4B42CA7FDE6F0E5DC3 /* Pods */,
+				C931918E3FE03D3723076580 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3C70EA2059003B00626BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3C70E92059003B00626BA3 /* LJScroView-master.app */,
+				6E3C71012059003C00626BA3 /* LJScroView-masterTests.xctest */,
+				6E3C710C2059003C00626BA3 /* LJScroView-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3C70EB2059003B00626BA3 /* LJScroView-master */ = {
+			isa = PBXGroup;
+			children = (
+				6E3C70EC2059003B00626BA3 /* AppDelegate.h */,
+				6E3C70ED2059003B00626BA3 /* AppDelegate.m */,
+				6E3C70EF2059003B00626BA3 /* ViewController.h */,
+				6E3C70F02059003B00626BA3 /* ViewController.m */,
+				6E3C70F22059003B00626BA3 /* Main.storyboard */,
+				6E3C70F52059003B00626BA3 /* Assets.xcassets */,
+				6E3C70F72059003B00626BA3 /* LaunchScreen.storyboard */,
+				6E3C70FA2059003B00626BA3 /* Info.plist */,
+				6E3C70FB2059003B00626BA3 /* main.m */,
+				6E3C712E205902D900626BA3 /* PrefixHeader.pch */,
+			);
+			path = "LJScroView-master";
+			sourceTree = "<group>";
+		};
+		6E3C71042059003C00626BA3 /* LJScroView-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3C71052059003C00626BA3 /* LJScroView_masterTests.m */,
+				6E3C71072059003C00626BA3 /* Info.plist */,
+			);
+			path = "LJScroView-masterTests";
+			sourceTree = "<group>";
+		};
+		6E3C710F2059003C00626BA3 /* LJScroView-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3C71102059003C00626BA3 /* LJScroView_masterUITests.m */,
+				6E3C71122059003C00626BA3 /* Info.plist */,
+			);
+			path = "LJScroView-masterUITests";
+			sourceTree = "<group>";
+		};
+		6E3C711E2059015D00626BA3 /* LJScroview */ = {
+			isa = PBXGroup;
+			children = (
+				6E3C71272059015D00626BA3 /* LJScroView.h */,
+				6E3C71222059015D00626BA3 /* LJScroView.m */,
+				6E3C71312059292E00626BA3 /* LJMainScrollView.h */,
+				6E3C71322059292E00626BA3 /* LJMainScrollView.m */,
+				6E3C71242059015D00626BA3 /* LJScroViewCell.h */,
+				6E3C71202059015D00626BA3 /* LJScroViewCell.m */,
+				6E3C71232059015D00626BA3 /* LJScroViewCollectionViewLayout.h */,
+				6E3C71282059015D00626BA3 /* LJScroViewCollectionViewLayout.m */,
+				6E3C71252059015D00626BA3 /* LJScroViewItem.h */,
+				6E3C711F2059015D00626BA3 /* LJScroViewItem.m */,
+				6E3C71262059015D00626BA3 /* LJScroViewConfig.h */,
+				6E3C71212059015D00626BA3 /* LJScroViewConfig.m */,
+			);
+			path = LJScroview;
+			sourceTree = "<group>";
+		};
+		C931918E3FE03D3723076580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A76B645C3A34D485DC3B87A4 /* libPods-LJScroView-master.a */,
+				378CD10AEE7C8126AC7F0C1D /* libPods-LJScroView-masterTests.a */,
+				FA4BD4F672B8E4A2EE7DE147 /* libPods-LJScroView-masterUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3C70E82059003B00626BA3 /* LJScroView-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3C71152059003C00626BA3 /* Build configuration list for PBXNativeTarget "LJScroView-master" */;
+			buildPhases = (
+				1780607552AE9AD3E839D40B /* [CP] Check Pods Manifest.lock */,
+				6E3C70E52059003B00626BA3 /* Sources */,
+				6E3C70E62059003B00626BA3 /* Frameworks */,
+				6E3C70E72059003B00626BA3 /* Resources */,
+				ADC1FF90E75ADECE0FB7D14A /* [CP] Embed Pods Frameworks */,
+				CA367476BD56F5D2D54A691C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LJScroView-master";
+			productName = "LJScroView-master";
+			productReference = 6E3C70E92059003B00626BA3 /* LJScroView-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3C71002059003C00626BA3 /* LJScroView-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3C71182059003C00626BA3 /* Build configuration list for PBXNativeTarget "LJScroView-masterTests" */;
+			buildPhases = (
+				72C9486289824E77B93911FA /* [CP] Check Pods Manifest.lock */,
+				6E3C70FD2059003C00626BA3 /* Sources */,
+				6E3C70FE2059003C00626BA3 /* Frameworks */,
+				6E3C70FF2059003C00626BA3 /* Resources */,
+				D158EF9B189AC2E2215E5E9F /* [CP] Embed Pods Frameworks */,
+				00DE907246361059439B269E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3C71032059003C00626BA3 /* PBXTargetDependency */,
+			);
+			name = "LJScroView-masterTests";
+			productName = "LJScroView-masterTests";
+			productReference = 6E3C71012059003C00626BA3 /* LJScroView-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E3C710B2059003C00626BA3 /* LJScroView-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3C711B2059003C00626BA3 /* Build configuration list for PBXNativeTarget "LJScroView-masterUITests" */;
+			buildPhases = (
+				199158239BDF1A139523E737 /* [CP] Check Pods Manifest.lock */,
+				6E3C71082059003C00626BA3 /* Sources */,
+				6E3C71092059003C00626BA3 /* Frameworks */,
+				6E3C710A2059003C00626BA3 /* Resources */,
+				04374F58BB5CF3758E927910 /* [CP] Embed Pods Frameworks */,
+				38D4A791FF3249A7A6184B9D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3C710E2059003C00626BA3 /* PBXTargetDependency */,
+			);
+			name = "LJScroView-masterUITests";
+			productName = "LJScroView-masterUITests";
+			productReference = 6E3C710C2059003C00626BA3 /* LJScroView-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3C70E12059003B00626BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = wanglijun;
+				TargetAttributes = {
+					6E3C70E82059003B00626BA3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					6E3C71002059003C00626BA3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E3C70E82059003B00626BA3;
+					};
+					6E3C710B2059003C00626BA3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E3C70E82059003B00626BA3;
+					};
+				};
+			};
+			buildConfigurationList = 6E3C70E42059003B00626BA3 /* Build configuration list for PBXProject "LJScroView-master" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3C70E02059003B00626BA3;
+			productRefGroup = 6E3C70EA2059003B00626BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3C70E82059003B00626BA3 /* LJScroView-master */,
+				6E3C71002059003C00626BA3 /* LJScroView-masterTests */,
+				6E3C710B2059003C00626BA3 /* LJScroView-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3C70E72059003B00626BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3C70F92059003B00626BA3 /* LaunchScreen.storyboard in Resources */,
+				6E3C70F62059003B00626BA3 /* Assets.xcassets in Resources */,
+				6E3C71302059066B00626BA3 /* 1254x1647fn3.jpeg in Resources */,
+				6E3C70F42059003B00626BA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3C70FF2059003C00626BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3C710A2059003C00626BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DE907246361059439B269E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJScroView-masterTests/Pods-LJScroView-masterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04374F58BB5CF3758E927910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJScroView-masterUITests/Pods-LJScroView-masterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1780607552AE9AD3E839D40B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJScroView-master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		199158239BDF1A139523E737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJScroView-masterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D4A791FF3249A7A6184B9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJScroView-masterUITests/Pods-LJScroView-masterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C9486289824E77B93911FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJScroView-masterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC1FF90E75ADECE0FB7D14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJScroView-master/Pods-LJScroView-master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA367476BD56F5D2D54A691C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJScroView-master/Pods-LJScroView-master-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D158EF9B189AC2E2215E5E9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJScroView-masterTests/Pods-LJScroView-masterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3C70E52059003B00626BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3C712D2059015D00626BA3 /* LJScroViewCollectionViewLayout.m in Sources */,
+				6E3C70F12059003B00626BA3 /* ViewController.m in Sources */,
+				6E3C70FC2059003B00626BA3 /* main.m in Sources */,
+				6E3C71292059015D00626BA3 /* LJScroViewItem.m in Sources */,
+				6E3C712B2059015D00626BA3 /* LJScroViewConfig.m in Sources */,
+				6E3C71332059292E00626BA3 /* LJMainScrollView.m in Sources */,
+				6E3C712C2059015D00626BA3 /* LJScroView.m in Sources */,
+				6E3C70EE2059003B00626BA3 /* AppDelegate.m in Sources */,
+				6E3C712A2059015D00626BA3 /* LJScroViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3C70FD2059003C00626BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3C71062059003C00626BA3 /* LJScroView_masterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3C71082059003C00626BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3C71112059003C00626BA3 /* LJScroView_masterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3C71032059003C00626BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3C70E82059003B00626BA3 /* LJScroView-master */;
+			targetProxy = 6E3C71022059003C00626BA3 /* PBXContainerItemProxy */;
+		};
+		6E3C710E2059003C00626BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3C70E82059003B00626BA3 /* LJScroView-master */;
+			targetProxy = 6E3C710D2059003C00626BA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E3C70F22059003B00626BA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3C70F32059003B00626BA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E3C70F72059003B00626BA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3C70F82059003B00626BA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E3C71132059003C00626BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E3C71142059003C00626BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E3C71162059003C00626BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684BAC3AD89A9608095B0DEA /* Pods-LJScroView-master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3PXDB5374;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJScroView-master/PrefixHeader.pch";
+				INFOPLIST_FILE = "LJScroView-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sifang.LJScroView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3C71172059003C00626BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F907D6E412AB62D1CA8263 /* Pods-LJScroView-master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3PXDB5374;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJScroView-master/PrefixHeader.pch";
+				INFOPLIST_FILE = "LJScroView-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sifang.LJScroView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E3C71192059003C00626BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AC9A784AA94499C7808BC9 /* Pods-LJScroView-masterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LJScroView-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sifang.LJScroView-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJScroView-master.app/LJScroView-master";
+			};
+			name = Debug;
+		};
+		6E3C711A2059003C00626BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D7BC1A70B8080153C018C2 /* Pods-LJScroView-masterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LJScroView-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sifang.LJScroView-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJScroView-master.app/LJScroView-master";
+			};
+			name = Release;
+		};
+		6E3C711C2059003C00626BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728590BA570834C0668F3BD2 /* Pods-LJScroView-masterUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LJScroView-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sifang.LJScroView-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LJScroView-master";
+			};
+			name = Debug;
+		};
+		6E3C711D2059003C00626BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C1915CDA1B89153C253768 /* Pods-LJScroView-masterUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LJScroView-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sifang.LJScroView-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LJScroView-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E3C70E42059003B00626BA3 /* Build configuration list for PBXProject "LJScroView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3C71132059003C00626BA3 /* Debug */,
+				6E3C71142059003C00626BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3C71152059003C00626BA3 /* Build configuration list for PBXNativeTarget "LJScroView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3C71162059003C00626BA3 /* Debug */,
+				6E3C71172059003C00626BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3C71182059003C00626BA3 /* Build configuration list for PBXNativeTarget "LJScroView-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3C71192059003C00626BA3 /* Debug */,
+				6E3C711A2059003C00626BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3C711B2059003C00626BA3 /* Build configuration list for PBXNativeTarget "LJScroView-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3C711C2059003C00626BA3 /* Debug */,
+				6E3C711D2059003C00626BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E3C70E12059003B00626BA3 /* Project object */;
+}

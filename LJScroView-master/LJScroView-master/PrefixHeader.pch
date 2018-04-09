@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  LJScroView-master
+//
+//  Created by wanglijun on 2018/3/14.
+//  Copyright © 2018年 wanglijun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 屏幕宽度，会根据横竖屏的变化而变化
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#import <Masonry.h>
+#import <UIView+WebCache.h>
+#import <SDWebImageManager.h>
+
+#endif /* PrefixHeader_pch */
