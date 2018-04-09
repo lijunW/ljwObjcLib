@@ -8,6 +8,8 @@
 
 #import "LJMainScrollView.h"
 
+#define LJSCROVIEW_SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+
 @interface LJMainScrollView ()<UIScrollViewDelegate>
 @property (nonatomic,strong)UIImageView * centerImageView;
 @property (nonatomic,strong)UIImageView * leftImageView;
@@ -27,7 +29,7 @@
         self.dataSourceArray = Items.copy;
         self.pagingEnabled = YES;
         
-        [self setContentSize:CGSizeMake(SCREEN_WIDTH * 2, 0)];
+        [self setContentSize:CGSizeMake(LJSCROVIEW_SCREEN_WIDTH * 2, 0)];
         [self setContentOffset:CGPointMake(-60, 0)];
         
         [self setsubview];
@@ -37,9 +39,9 @@
 }
 
 -(void)setsubview{
-    _centerImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH)];
-    _leftImageView = [[UIImageView alloc]initWithFrame:CGRectMake(-60, 0, SCREEN_WIDTH, SCREEN_WIDTH)];
-    _rightImageView = [[UIImageView alloc]initWithFrame:CGRectMake(60, 0, SCREEN_WIDTH, SCREEN_WIDTH)];
+    _centerImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, LJSCROVIEW_SCREEN_WIDTH, LJSCROVIEW_SCREEN_WIDTH)];
+    _leftImageView = [[UIImageView alloc]initWithFrame:CGRectMake(-60, 0, LJSCROVIEW_SCREEN_WIDTH, LJSCROVIEW_SCREEN_WIDTH)];
+    _rightImageView = [[UIImageView alloc]initWithFrame:CGRectMake(60, 0, LJSCROVIEW_SCREEN_WIDTH, LJSCROVIEW_SCREEN_WIDTH)];
     
     [_centerImageView setBackgroundColor:[UIColor greenColor]];
     [_leftImageView setBackgroundColor:[UIColor orangeColor]];
@@ -54,14 +56,14 @@
     CGFloat contentOffsetX = scrollView.contentOffset.x;
     CGFloat ItemOffset = 60;
     if ([[scrollView.subviews firstObject] isEqual:_centerImageView]) {
-        _centerImageView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH);
+        _centerImageView.frame = CGRectMake(0, 0, LJSCROVIEW_SCREEN_WIDTH, LJSCROVIEW_SCREEN_WIDTH);
         
-        CGFloat rightx = contentOffsetX + ItemOffset -  (contentOffsetX / SCREEN_WIDTH) *  ItemOffset ;
-        _rightImageView.frame = CGRectMake(rightx, 0, SCREEN_WIDTH, SCREEN_WIDTH);
+        CGFloat rightx = contentOffsetX + ItemOffset -  (contentOffsetX / LJSCROVIEW_SCREEN_WIDTH) *  ItemOffset ;
+        _rightImageView.frame = CGRectMake(rightx, 0, LJSCROVIEW_SCREEN_WIDTH, LJSCROVIEW_SCREEN_WIDTH);
         
         
-        CGFloat lrftx = contentOffsetX*(contentOffsetX/SCREEN_WIDTH) -ItemOffset + 2 * ItemOffset * (contentOffsetX/SCREEN_WIDTH);
-        _leftImageView.frame = CGRectMake(lrftx, 0, SCREEN_WIDTH, SCREEN_WIDTH);
+        CGFloat lrftx = contentOffsetX*(contentOffsetX/LJSCROVIEW_SCREEN_WIDTH) -ItemOffset + 2 * ItemOffset * (contentOffsetX/LJSCROVIEW_SCREEN_WIDTH);
+        _leftImageView.frame = CGRectMake(lrftx, 0, LJSCROVIEW_SCREEN_WIDTH, LJSCROVIEW_SCREEN_WIDTH);
         
     }else if ([[scrollView.subviews firstObject] isEqual:_rightImageView]){
         
